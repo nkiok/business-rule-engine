@@ -3,9 +3,9 @@ using Engine.Core.Domain;
 
 namespace Engine.Core.Commands
 {
-    public class AddProductToRoyaltyDepartmentPackingSlipCommand : BaseCommand
+    public class AddProductToPackingSlipForRoyaltyDepartmentCommand : BaseCommand
     {
-        public AddProductToRoyaltyDepartmentPackingSlipCommand(Product product, Guid orderId) : base(product, orderId)
+        public AddProductToPackingSlipForRoyaltyDepartmentCommand(Product product, Guid orderId) : base(product, orderId)
         {
         }
     }
